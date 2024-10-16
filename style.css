@@ -39,8 +39,19 @@
 
   font-size: 40px;
 }
+.headerflex{
+  display: flex; gap: 70px
+  ;
+}
 .header {
-  width: 20px;
-  height: 20px;
-  background-color: aqua;
+  width: 20px;height: 20px;
+  background-image: url(Div\ [burgermenu].png);
+}
+.headeritem{
+  width: 135px;height: 18px;
+  background-image:url(Image\ [logo].png)
+}
+.headeritem2{
+  width: 140px;height: 20px;
+  background-image: url(Div\ [social-links].png);
 }
