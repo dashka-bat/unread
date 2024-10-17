@@ -9,11 +9,17 @@
   margin-left: 0;
   margin-right: 0;
 }
+* {
+  box-sizing: border-box;
+}
+* {
+  flex-wrap: wrap;
+}
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)),
     url(https://unread.today/files/007afc64-288a-4208-b9d7-3eda84011c1d/1451f11e03da76480966b636a622119a.jpg);
   background-size: 100%;
-  height: 100vh;
+  height: 80vh;
   background-position-y: 120%;
   background-repeat: no-repeat;
 
@@ -61,19 +67,22 @@
   width: 20px;
   height: 20px;
   background-image: url(Div\ [burgermenu].png);
-  margin-left: 50px;
+  margin-left: 200px;
 }
 .headeritem {
   width: 135px;
   height: 18px;
   background-image: url(Image\ [logo].png);
   margin-right: 40px;
-  margin-left: 350px;
+  margin-left: 300px;
 }
 .headeritem2 {
   width: 14px;
   height: 13px;
   margin-right: 10px;
+}
+.headeritem2:hover {
+  background-color: blue;
 }
 .line {
   background-color: white;
@@ -99,7 +108,44 @@
   width: 44px;
   height: 44px;
 }
-.pictures{
-margin-top: 40px;gap: 50px
-;
+.pictures {
+  margin-top: 40px;
+
+  margin-right: 50px;
+  width: 244px;
+  height: 360;
+}
+.pictures:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+.comment {
+  width: 739px;
+  height: 234px;
+  background-color: white;
+  border: 2px solid whitesmoke;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-left: 280px;
+  display: flex;
+  align-items: center;
+  padding: 50px 50px;
+  justify-content: space-between;
+}
+.comment:hover {
+  border: 2px solid whitesmoke;
+  box-shadow: 12px 12px 6px gainsboro;
+  transition: 1s;
+  transform: scale(1.04);
+}
+.date {
+  color: gray;
+  display: flex;
+  align-self: flex-end;
+}
+.end {
+  display: flex;
+  align-self: flex-end;
 }
