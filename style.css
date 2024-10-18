@@ -19,7 +19,7 @@
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)),
     url(https://unread.today/files/007afc64-288a-4208-b9d7-3eda84011c1d/1451f11e03da76480966b636a622119a.jpg);
   background-size: 100%;
-  height: 80vh;
+  height: 100vh;
   background-position-y: 120%;
   background-repeat: no-repeat;
 
@@ -112,40 +112,74 @@
   margin-top: 40px;
 
   margin-right: 50px;
-  width: 244px;
-  height: 360;
+  width: 293px;
+  height: 433px;
 }
 .pictures:hover {
   transform: scale(1.1);
   transition: 0.5s;
 }
 .comment {
-  width: 739px;
-  height: 234px;
   background-color: white;
   border: 2px solid whitesmoke;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 30px;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
-  margin-left: 280px;
   display: flex;
   align-items: center;
-  padding: 50px 50px;
+  padding: 0px 50px;
   justify-content: space-between;
+  height: 180px;
 }
 .comment:hover {
-  border: 2px solid whitesmoke;
+  border: 0px solid whitesmoke;
   box-shadow: 12px 12px 6px gainsboro;
   transition: 1s;
   transform: scale(1.04);
-}
-.date {
-  color: gray;
-  display: flex;
-  align-self: flex-end;
+  border-radius: 50px;
 }
 .end {
   display: flex;
-  align-self: flex-end;
+  justify-content: end;
+}
+
+.section-2back {
+  height: 1588px;
+  background-color: whitesmoke;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.section-2-back2 {
+  width: 1116px;
+  height: 1588px;
+  background-color: whitesmoke;
+  position: absolute;
+}
+.section-2-back3 {
+  background-color: whitesmoke;
+  width: 739px;
+  height: 280px;
+}
+.people {
+  font-size: 12px;
+}
+.date {
+  color: gray;
+}
+.text {
+  font-size: 22px;
+  font-weight: bold;
+}
+.text:hover {
+  color: rgb(0, 85, 255);
+}
+.section-3-back {
+  background-color: yellowgreen;
+  height: 1817px;
+}
+.section-3flex {
+  display: flex;
+  gap: 200px;
 }
