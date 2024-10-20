@@ -176,10 +176,35 @@
   color: rgb(0, 85, 255);
 }
 .section-3-back {
-  background-color: yellowgreen;
-  height: 1817px;
+  background-color: whitesmoke;
+  height: 1817px;position: relative;display: flex;justify-content: center;background-color:whitesmoke;
+}
+.section-3-back2{position:absolute;
+  width: 1116px;height: 1817px;
+  background-color:whitesmoke;
+
 }
 .section-3flex {
-  display: flex;
-  gap: 200px;
+  display: flex;justify-content: space-around;
+}
+.TEXT-1{
+  color: gray;font-size: 13px;
+}
+.TEXT-1:hover{
+  color-scheme: 110px;color:blue
+}
+.solidborder{
+  background-color: grey;border: 1px solid gray;height: 1px;width: 212px;
+}
+.section-3-back2hover{border: 2px solid whitesmoke;height: 62px;width: 212px;
+  
+}
+.section-3-back2hover:hover{
+  color:blue
+}
+.section-4back1{
+  background-color: black;height: 750px;display: flex;justify-content: center;align-items: center; position: relative;
+}
+.section-4back2{
+  background-color: darkgreen;width: 1186px;height: 545px;position: absolute;
 }
