@@ -79,10 +79,13 @@
 .headeritem2 {
   width: 14px;
   height: 13px;
-  margin-right: 10px;
+  margin-right: 10px;position: relative;
 }
 .headeritem2:hover {
-  background-color: blue;
+  background-color: radial-gradient(
+    circle at 30% 110%,#ffdb8b 0%
+    #ee653d 25% #d42e81 50% #a237b6 75% #3e5fbc 100%)
+  ;display: block;position: absolute;
 }
 .line {
   background-color: white;
