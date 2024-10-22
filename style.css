@@ -76,19 +76,30 @@
   margin-right: 40px;
   margin-left: 300px;
 }
-.headeritem2 {
+.headeritem1 {
+  background-image: url(Icon.png);
   width: 14px;
   height: 13px;
-  margin-right: 10px;
-  position: relative;
 }
+.headeritem2 {
+  background-image: url(Link\ [social-link].png);
+  width: 14px;
+  height: 13px;
+}
+.headeritem3 {
+  background-image: url(twitter.png.png);
+  width: 14px;
+  height: 13px;
+}
+.headeritem4 {
+  background-image: url(in.png.png);
+  width: 14px;
+  height: 13px;
+}
+
 .headeritem2:hover {
-  background-color: radial-gradient(
-    circle at 30% 110%,
-    #ffdb8b 0% #ee653d 25% #d42e81 50% #a237b6 75% #3e5fbc 100%
-  );
-  display: block;
-  position: absolute;
+  color: #3e5fbc;
+  transition: 1s;
 }
 .line {
   background-color: white;
@@ -114,6 +125,12 @@
   width: 44px;
   height: 44px;
 }
+.tushigt:hover {
+  border: 2px white;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+}
 .pictures {
   margin-top: 40px;
 
@@ -138,13 +155,6 @@
   justify-content: space-between;
   height: 180px;
 }
-.comment:hover {
-  border: 0px solid whitesmoke;
-  box-shadow: 12px 12px 6px gainsboro;
-  transition: 1s;
-  transform: scale(1.04);
-  border-radius: 50px;
-}
 .end {
   display: flex;
   justify-content: end;
@@ -167,6 +177,13 @@
   background-color: whitesmoke;
   width: 739px;
   height: 280px;
+}
+.section-2-back3:hover {
+  border: 0px solid whitesmoke;
+  box-shadow: 6px 6px 2px gainsboro;
+  transition: 0.5s;
+  transform: scale(1.01);
+  border-radius: 50px;
 }
 .people {
   font-size: 12px;
@@ -210,7 +227,7 @@
   color: gray;
   font-size: 13px;
   border: 2px solid blue;
-  border-bottom: ;
+
   width: 212px;
 }
 .TEXT-1:hover {
@@ -246,6 +263,42 @@
   width: 1186px;
   height: 545px;
   position: absolute;
+  display: flex;
+  gap: 55px;
+}
+.section-4back3 {
+  width: 467px;
+  height: 404px;
+  background-color: #d42e81;
+  padding: 20px 20px;
+}
+.section-4back4 {
+  background-color: #3e5fbc;
+  width: 650px;
+  height: 403px;
+}
+.section-4back4-item1 {
+  background-color: #d42e81;
+  width: 625px;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-size: 14px;
+}
+.smallsize {
+  font-size: 10px;
+  color: gray;
+}
+.section-4back4-item2 {
+  background-color: chartreuse;
+  width: 625px;
+  height: 264px;
+}
+.buttonblck {
+  background-image: url(btn-black.png);
+  width: 323px;
+  height: 90px;
 }
 .grid-container1 {
   display: grid;
