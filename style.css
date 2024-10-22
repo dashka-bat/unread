@@ -259,7 +259,7 @@
   position: relative;
 }
 .section-4back2 {
-  background-color: darkgreen;
+  background-color: black;
   width: 1186px;
   height: 545px;
   position: absolute;
@@ -269,29 +269,30 @@
 .section-4back3 {
   width: 467px;
   height: 404px;
-  background-color: #d42e81;
+  background-color: black;
   padding: 20px 20px;
 }
 .section-4back4 {
-  background-color: #3e5fbc;
+  background-color: black;
   width: 650px;
   height: 403px;
 }
 .section-4back4-item1 {
-  background-color: #d42e81;
+  background-color: black;
   width: 625px;
   height: 100px;
   display: flex;
-  justify-content: space-around;
+  gap: 15px;
   color: white;
   font-size: 14px;
 }
 .smallsize {
   font-size: 10px;
   color: gray;
+  margin-right: 100px;
 }
 .section-4back4-item2 {
-  background-color: chartreuse;
+  background-color: black;
   width: 625px;
   height: 264px;
 }
@@ -299,6 +300,7 @@
   background-image: url(btn-black.png);
   width: 323px;
   height: 90px;
+  display: flex;
 }
 .grid-container1 {
   display: grid;
@@ -342,4 +344,32 @@
   grid-column-start: 2;
   grid-row-start: 4;
   grid-row-end: 8;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: 208px 208px 208px;
+  grid-template-rows: 30px 30px 30px 30px 30px 30px 30px 30px 30px;
+}
+.footer {
+  color: gray;
+  font-size: 12px;
+  transition: all 0.2s ease-in-out;
+}
+
+.footer:hover {
+  transform: scale(1.1);
+}
+.footer1 {
+  color: blue;
+  font-size: 14.1px;
+}
+.footer2 {
+  color: black;
+}
+.road {
+  background-color: black;
+  width: 54px;
+  height: 54px;
+  border: 0px black;
+  border-radius: 50px;
 }
