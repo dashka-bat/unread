@@ -198,6 +198,14 @@
 .text:hover {
   color: rgb(0, 85, 255);
 }
+.section-3-header{background-color: whitesmoke
+  ;width: 1136px;height:
+  55px;margin-bottom: 50px;
+
+}
+.section-3-header:hover{border-bottom-color: #0078F6;
+  
+}
 .section-3-back {
   background-color: whitesmoke;
   height: 1817px;
@@ -214,34 +222,28 @@
 }
 .section-3flex {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-around;width: 1121px;height: 58px;border: 2px solid whitesmoke;border-bottom-color: gray;
 }
 .TEXT-1 {
   color: blue;
-  font-size: 13px;
-  border: 2px solid whitesmoke;
-  width: 212px;
-  height: 65px;
+  font-size: 13px;border: 2px solid whitesmoke;height: 55px;
+  width: 212px;border-bottom-color: #0078F6;
+  
+  
 }
 .text-2 {
-  color: gray;
-  font-size: 13px;
-  border: 2px solid blue;
+  color: gray;width: 281px;margin: 0px 0px 0px;
+  font-size: 13px;border: 2px solid blueviolet;border-bottom-color: #0078F6;
+  
 
-  width: 212px;
+  
 }
 .TEXT-1:hover {
-  color-scheme: 110px;
-  color: blue;
+  
+  
 }
-.solidborder {
-  background-color: grey;
-  border: 1px solid gray;
-  height: 1px;
-  width: 1121px;
-  margin-top: -10px;
-  margin-bottom: 70px;
-}
+
+
 .section-3-back2hover {
   border: 2px solid whitesmoke;
   height: 62px;
@@ -260,11 +262,11 @@
 }
 .section-4back2 {
   background-color: black;
-  width: 1186px;
+  width: 1140px;
   height: 545px;
   position: absolute;
   display: flex;
-  gap: 55px;
+  gap: 50px;
 }
 .section-4back3 {
   width: 467px;
@@ -274,17 +276,45 @@
 }
 .section-4back4 {
   background-color: black;
-  width: 650px;
-  height: 403px;
+  width: 600px;
+  height: 403px;margin-top: 30px;
 }
 .section-4back4-item1 {
   background-color: black;
   width: 625px;
   height: 100px;
-  display: flex;
-  gap: 15px;
+  display: flex;gap: 20px;
+  
   color: white;
   font-size: 14px;
+}
+.section-4back4-item1hover{
+  display: flex;gap: 15px
+  ;
+}
+.texthover1{
+  color: white;font-size: 14px;
+}
+.texthover2{
+  color: white;font-size: 14px;
+}
+.texthover3{
+  color: white;font-size: 14px;
+}
+.texthover4{
+  color: white;font-size: 14px;
+}
+.texthover1:hover{
+color:#878787;transition: 0.4s;
+}
+.texthover2:hover{
+  color:#878787;transition: 0.4s;
+}
+.texthover3:hover{
+  color:#878787;transition: 0.4s;
+}
+.texthover4:hover{
+  color:#878787;transition: 0.4s;
 }
 .smallsize {
   font-size: 10px;
@@ -294,13 +324,19 @@
 .section-4back4-item2 {
   background-color: black;
   width: 625px;
-  height: 264px;
+  height: 264px;margin-top: 40px;
 }
 .buttonblck {
-  background-image: url(btn-black.png);
+  background-image: url(btn-black.png);border-radius: 20px;
   width: 323px;
   height: 90px;
-  display: flex;
+  margin-bottom: 35px;margin-top: 50px;
+}
+.buttonblck:hover{
+  transform: scaleX(1.01);
+}
+.buttonblck:hover .road{
+   background-color: #3e5fbc
 }
 .grid-container1 {
   display: grid;
@@ -312,7 +348,16 @@
   grid-column-end: 3;
   grid-column-start: 1;
   grid-row-start: 1;
-  grid-row-end: 4;
+  grid-row-end: 4;border-radius: 15px;
+}
+.grid-picbig:hover{
+  transform: scale(1.01);transition: 0.5s;box-shadow: 0px 0px 20px rgb(130, 130, 130);
+}
+.smallpic{
+  transition: 0.5s;
+}
+.smallpic:hover{
+  transform: scale(1.01);transition: 0.5s;box-shadow: 0px 0px 20px rgb(130, 130, 130);border-radius: 20px;
 }
 .grid-container2 {
   display: grid;
@@ -327,11 +372,17 @@
   grid-row-start: 1;
   grid-row-end: 4;
 }
+.grid-container2item1line:hover{
+  transform: scale(1.01);transition: 0.5s;box-shadow: 0px 0px 20px rgb(130, 130, 130);border-radius: 20px;
+}
 .grid-container2item1line2pic {
   grid-column-end: 3;
   grid-column-start: 2;
   grid-row-start: 1;
   grid-row-end: 4;
+}
+.grid-container2item1line2pic:hover{
+  transform: scale(1.01);transition: 0.5s;box-shadow: 0px 0px 20px rgb(130, 130, 130);border-radius: 20px;
 }
 .grid-container2item2line {
   grid-column-end: 1;
@@ -339,11 +390,17 @@
   grid-row-start: 4;
   grid-row-end: 8;
 }
+.grid-container2item2line:hover{
+  transform: scale(1.01);transition: 0.5s;box-shadow: 0px 0px 20px rgb(130, 130, 130);border-radius: 20px;
+}
 .grid-container2item2line2pic {
   grid-column-end: 3;
   grid-column-start: 2;
   grid-row-start: 4;
   grid-row-end: 8;
+}
+.grid-container2item2line2pic:hover{
+  transform: scale(1.01);transition: 0.5s;box-shadow: 0px 0px 20px rgb(130, 130, 130);border-radius: 20px;
 }
 .grid2 {
   display: grid;
@@ -357,10 +414,11 @@
 }
 
 .footer:hover {
-  transform: scale(1.1);
+  transform: scale(1.1);color: white;
 }
 .footer1 {
-  color: blue;
+  color: #0078F6;
+  ;
   font-size: 14.1px;
 }
 .footer2 {
@@ -371,5 +429,10 @@
   width: 54px;
   height: 54px;
   border: 0px black;
-  border-radius: 50px;
+  border-radius: 50px;margin-top: 15px;color: white;display: flex;justify-content: center;align-items: center;
+}
+
+
+.footericon{margin-left: 170px;
+
 }
