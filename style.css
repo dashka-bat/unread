@@ -1,3 +1,41 @@
+@media screen and (max-width: 1930px) {
+  #social-icons1 {
+    display: none;
+  }
+  #border {
+    display: none;
+  }
+}
+@media screen and (max-width: 1530px) {
+  #techworm {
+    display: none;
+  }
+  #nextpost {
+    display: none;
+  }
+  #headeritem {
+    margin-left: 80vh;
+  }
+}
+@media screen and (max-width: 1300px) {
+  #hero-right {
+    width: 50vh;
+  }
+  #scroll {
+    width: 100vh;
+  }
+  #pictures {
+    width: 141px;
+    height: 209px;
+  }
+}
+@media screen and(max-width:1150px) {
+  #section-2back {
+  }
+  #hero-right {
+    width: 30vh;
+  }
+}
 * {
   box-sizing: border-box;
 }
@@ -15,26 +53,49 @@
 * {
   flex-wrap: wrap;
 }
+#scroll {
+  display: flex;
+  gap: 5px;
+  max-width: 1375px;
+  overflow-x: scroll;
+  margin: auto;
+  max-height: 478px;
+  max-height: 500px;
+  flex-direction: column;
+}
+#text {
+  margin-bottom: 0px;
+}
+#nextpost {
+  color: rgb(159, 155, 155);
+  font-size: 12px;
+  margin-left: 560px;
+  margin-top: 20px;
+}
+.techworm {
+  color: white;
+  margin-top: 15px;
+}
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1)),
     url(https://unread.today/files/007afc64-288a-4208-b9d7-3eda84011c1d/1451f11e03da76480966b636a622119a.jpg);
   background-size: 100%;
-  height: 100vh;
-  background-position-y: 120%;
+  height: 700px;
+
   background-repeat: no-repeat;
 
   margin-right: auto;
   margin-left: auto;
 }
 .heroitem {
-  width: 1425px;
-  margin-left: 400px;
+  width: 100%;
+  margin-left: 40vh;
   margin-right: auto;
   display: flex;
 }
 .hero-left {
-  height: 450px;
-  width: 450px;
+  height: 40vh;
+  width: 40vh;
   background-image: url("./hero-img.png");
   background-size: cover;
   border-radius: 20px;
@@ -46,18 +107,20 @@
   background-size: 120%;
   transition: 0.5s;
 }
-.todaylight{color: #0078f6;
-  font-size: 15px;animation: blinktoday 1s infinite;
+.todaylight {
+  color: #0078f6;
+  font-size: 15px;
+  animation: blinktoday 1s infinite;
 }
-@keyframes blinktoday{
-  0%{
-opacity: 1;
+@keyframes blinktoday {
+  0% {
+    opacity: 1;
   }
-  50%{
-opacity: 0;
+  50% {
+    opacity: 0;
   }
-  100%{
-opacity: 1;
+  100% {
+    opacity: 1;
   }
 }
 .hero-right {
@@ -65,9 +128,9 @@ opacity: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-left: 60px;
+  padding-left: 10vh;
 
-  font-size: 35px;
+  font-size: 2rem;
 }
 .headerflex {
   display: flex;
@@ -110,18 +173,23 @@ opacity: 1;
   width: 14px;
   height: 13px;
 }
-.dotlight{
-  width: 8px;height: 8px;background-color: #0078f6;border-radius: 50%;margin-top: 3px;
+
+.dotlight {
+  width: 8px;
+  height: 8px;
+  background-color: #0078f6;
+  border-radius: 50%;
+  margin-top: 3px;
   animation: blinkdot 1s infinite;
 }
-@keyframes blinkdot{
-  0%{
+@keyframes blinkdot {
+  0% {
     opacity: 1;
   }
-  50%{
+  50% {
     opacity: 0;
   }
-  100%{
+  100% {
     opacity: 1;
   }
 }
@@ -146,7 +214,9 @@ opacity: 1;
   padding: 13px 29px;
   border-radius: 30px;
   font-size: 11.8px;
-  box-shadow: 7px 4px 50px -4px rgba(209, 209, 209, 0.6);display: flex;gap: 10px;
+  box-shadow: 7px 4px 50px -4px rgba(209, 209, 209, 0.6);
+  display: flex;
+  gap: 10px;
 }
 .tushigt {
   background-image: url(tushigt.png);
@@ -223,10 +293,12 @@ opacity: 1;
   width: 739px;
   height: 280px;
 }
-.section-2-back4{
-  width: 739px;height: 230px;background-color: white;
+.section-2-back4 {
+  width: 739px;
+  height: 230px;
+  background-color: whitesmoke;
 }
-.section-2-back4:hover{
+.section-2-back4:hover {
   border: 0px solid whitesmoke;
   box-shadow: 6px 6px 2px gainsboro;
   transition: 0.5s;
@@ -250,9 +322,11 @@ opacity: 1;
   background-color: whitesmoke;
   width: 1136px;
   height: 55px;
-  margin-bottom: 50px;border: 1px solid white;width: 1136px;height: 58px;
+  margin-bottom: 50px;
+  border: 1px solid whitesmoke;
+  width: 1136px;
+  height: 58px;
 }
-
 
 .section-3-back {
   background-color: whitesmoke;
@@ -522,7 +596,7 @@ opacity: 1;
   align-items: center;
 }
 .social-logo svg {
-  height: 13px;
+  height: 1rem;
   fill: white;
   opacity: 0.2;
 }
