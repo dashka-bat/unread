@@ -19,6 +19,12 @@
   #social-bar {
     margin-top: 40vh;
   }
+#section-4back2{
+  width: 80vw;
+}
+#section-3-back{
+  margin-top: 450px;
+}
 }
 @media screen and (max-width: 1300px) {
   #hero-right {
@@ -46,7 +52,20 @@
   #gridflex {
     flex-direction: column;
     align-items: center;
-  }
+}
+#section-4back1{
+  margin-top: 1000px;
+}
+#grid2{
+  display: block;
+}
+#section-3-back{
+  margin-top:450px;
+}
+#section-2back2{
+  width: 100vh;
+  
+}
 }
 * {
   box-sizing: border-box;
@@ -66,6 +85,9 @@
   flex-wrap: wrap;
 }
 #gridflex {
+  display: flex;
+}
+#gridflex2{
   display: flex;
 }
 #scroll {
@@ -336,7 +358,7 @@
 }
 .section-3-header {
   background-color: whitesmoke;
-  width: 1136px;
+  width: 90vw;
   height: 55px;
   margin-bottom: 50px;
   border: 1px solid whitesmoke;
@@ -346,7 +368,7 @@
 
 .section-3-back {
   background-color: whitesmoke;
-  height: 1817px;
+  height: 1700px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -354,31 +376,31 @@
 }
 .section-3-back2 {
   position: absolute;
-  width: 1136px;
+  width: 90vw;
   height: 1817px;
   background-color: whitesmoke;
 }
 .section-3flex {
   display: flex;
   justify-content: space-around;
-  width: 1121px;
+  width: 90vw;
   height: 58px;
   border: 1px solid whitesmoke;
   border-bottom-color: gray;
 }
 .TEXT-1 {
   color: #0078f6;
-  font-size: 13px;
+  font-size: 0.7rem;
   border: 2px solid whitesmoke;
   height: 55px;
-  width: 212px;
+  width: 22vw;
   border-bottom-color: #0078f6;
 }
 .text-2 {
   color: gray;
-  width: 281px;
+  width: 22vw;
   margin: 0px 0px 0px;
-  font-size: 13px;
+  font-size: 0.7rem;
   border: 1px solid whitesmoke;
   border-bottom-color: gray;
   margin-bottom: 5px;
@@ -398,7 +420,7 @@
 }
 .section-4back1 {
   background-color: black;
-  height: 600px;
+  height: 140vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -406,28 +428,28 @@
 }
 .section-4back2 {
   background-color: black;
-  width: 100%;
-  height: 545px;
+  width: 100vw;
+  height: 100vh;
   position: absolute;
   display: flex;
   gap: 50px;
-  margin-left: 20vw;
+  margin-left: 10vw;margin-bottom: 80vh;
 }
 .section-4back3 {
   width: 30vw;
-  height: 50vh;
+  height: 40vh;
   background-color: black;
   padding: 20px 20px;
 }
 .section-4back4 {
   background-color: black;
-  width: 60vw;
-  height: 60vh;
+  width: 45vw;
+  height: 10vh;
   margin-top: 30px;
 }
 .section-4back4-item1 {
   background-color: black;
-  width: 625px;
+  width: 30vw;
   height: 100px;
   display: flex;
   gap: 20px;
