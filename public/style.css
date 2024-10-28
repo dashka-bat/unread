@@ -5,6 +5,11 @@
   #border {
     display: none;
   }
+  #section-4back2 {
+    height: 80vh;
+  }
+  #section-3-back {
+  }
 }
 @media screen and (max-width: 1530px) {
   #techworm {
@@ -22,8 +27,15 @@
   #section-4back2 {
     width: 80vw;
   }
+
+  #section-4back1 {
+  }
   #section-3-back {
-    margin-top: 450px;
+    height: 220vh;
+    background-color: whitesmoke;
+  }
+  #section-2back {
+    height: 200vh;
   }
 }
 @media screen and (max-width: 1300px) {
@@ -59,11 +71,17 @@
   #grid2 {
     display: block;
   }
-  #section-3-back {
-    margin-top: 450px;
-  }
+
   #section-2back2 {
-    width: 100vh;
+    width: 70vh;
+  }
+  #section-3-header {
+    width: 80vw;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #section-2-back2 {
+    width: 50vh;
   }
 }
 * {
@@ -330,6 +348,7 @@
   width: 739px;
   height: 280px;
 }
+
 .section-2-back4 {
   width: 739px;
   height: 230px;
