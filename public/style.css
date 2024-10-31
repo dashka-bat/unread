@@ -78,6 +78,24 @@
   #section-3-header {
     width: 80vw;
   }
+  #fafa{
+    margin-left: 20vw;
+  }
+  #headeritem{
+    margin-left: 20vw;
+  }
+  #text{
+    width: 50px;
+  }
+  #text2{
+    width: 50px;
+  }
+  #section-2-back4{
+  margin-right: 200px;
+  }
+  #gird2{
+    width: 60vw;
+  }
 }
 @media screen and (max-width: 1000px) {
   #section-2-back2 {
@@ -117,6 +135,9 @@
   max-height: 550px;
 
   flex-direction: column;
+}
+#text2{
+  margin-top: 0px;
 }
 #text {
   margin-bottom: 0px;
