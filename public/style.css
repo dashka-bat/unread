@@ -63,7 +63,7 @@
   }
   #gridflex {
     flex-direction: column;
-    align-items: center;
+    margin-left: 10vw;
   }
   #section-4back1 {
     margin-top: 1000px;
@@ -73,15 +73,24 @@
   }
 
   #section-2back2 {
-    width: 70vh;
+    width: 40vw;
   }
   #section-3-header {
-    width: 80vw;
+    width: 70vw;
   }
 }
 @media screen and (max-width: 1000px) {
   #section-2-back2 {
     width: 50vh;
+  }
+  #section-4back1 {
+    height: 180vh;
+  }
+  #section-4back2 {
+    width: 50vw;
+  }
+  #grid2 {
+    grid-template-columns: 60vw;
   }
 }
 * {
@@ -338,7 +347,7 @@
   justify-content: center;
 }
 .section-2-back2 {
-  width: 1116px;
+  width: 70vw;
   height: 100%;
   background-color: whitesmoke;
   position: absolute;
@@ -380,7 +389,7 @@
   height: 55px;
   margin-bottom: 50px;
   border: 1px solid whitesmoke;
-  width: 1136px;
+
   height: 58px;
 }
 
@@ -446,7 +455,7 @@
 }
 .section-4back2 {
   background-color: black;
-  width: 80vw;
+  width: 60vw;
   height: 50vh;
   position: absolute;
   display: flex;
