@@ -8,8 +8,6 @@
   #section-4back2 {
     height: 80vh;
   }
-  #section-3-back {
-  }
 }
 @media screen and (max-width: 1530px) {
   #techworm {
@@ -28,8 +26,6 @@
     width: 80vw;
   }
 
-  #section-4back1 {
-  }
   #section-3-back {
     height: 220vh;
     background-color: whitesmoke;
