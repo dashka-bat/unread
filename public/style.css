@@ -89,6 +89,11 @@
     grid-template-columns: 60vw;
   }
 }
+@media screen and (max-width: 400px) {
+  #section-4back2 {
+    width: 50vw;
+  }
+}
 * {
   box-sizing: border-box;
 }
