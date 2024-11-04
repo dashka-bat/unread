@@ -104,6 +104,17 @@
   
   
 }
+@media screen and(max-width:400px) {
+  #section-4back2{
+    width: 50vw;
+  }
+  #section-2back2{
+    width: 50vw;
+  }
+  #section-4back3{
+    width: 50vw;
+  }
+}
 * {
   box-sizing: border-box;
 }
