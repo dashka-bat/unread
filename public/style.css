@@ -114,7 +114,13 @@
   #section-4back3{
     width: 50vw;
   }
+  #grid2{
+    display: block;
+  }
+  
 }
+
+
 * {
   box-sizing: border-box;
 }
