@@ -8,8 +8,6 @@
   #section-4back2 {
     height: 80vh;
   }
-  #section-3-back {
-  }
 }
 @media screen and (max-width: 1530px) {
   #techworm {
@@ -28,8 +26,6 @@
     width: 80vw;
   }
 
-  #section-4back1 {
-  }
   #section-3-back {
     height: 220vh;
     background-color: whitesmoke;
@@ -63,7 +59,7 @@
   }
   #gridflex {
     flex-direction: column;
-    align-items: center;
+    margin-left: 10vw;
   }
   #section-4back1 {
     margin-top: 1000px;
@@ -73,27 +69,27 @@
   }
 
   #section-2back2 {
-    width: 70vh;
+    width: 40vw;
   }
   #section-3-header {
-    width: 80vw;
+    width: 70vw;
   }
-  #fafa{
+  #fafa {
     margin-left: 20vw;
   }
-  #headeritem{
+  #headeritem {
     margin-left: 20vw;
   }
-  #text{
+  #text {
     width: 50px;
   }
-  #text2{
+  #text2 {
     width: 50px;
   }
-  #section-2-back4{
-  margin-right: 200px;
+  #section-2-back4 {
+    margin-right: 200px;
   }
-  #gird2{
+  #gird2 {
     width: 60vw;
   }
 }
@@ -101,25 +97,21 @@
   #section-2-back2 {
     width: 50vh;
   }
-  
-  
 }
 @media screen and(max-width:400px) {
-  #section-4back2{
+  #section-4back2 {
     width: 50vw;
   }
-  #section-2back2{
+  #section-2back2 {
     width: 50vw;
   }
-  #section-4back3{
+  #section-4back3 {
     width: 50vw;
   }
-  #grid2{
+  #grid2 {
     display: block;
   }
-  
 }
-
 
 * {
   box-sizing: border-box;
@@ -155,7 +147,7 @@
 
   flex-direction: column;
 }
-#text2{
+#text2 {
   margin-top: 0px;
 }
 #text {
@@ -378,7 +370,7 @@
   justify-content: center;
 }
 .section-2-back2 {
-  width: 1116px;
+  width: 70vw;
   height: 100%;
   background-color: whitesmoke;
   position: absolute;
@@ -420,7 +412,7 @@
   height: 55px;
   margin-bottom: 50px;
   border: 1px solid whitesmoke;
-  width: 1136px;
+
   height: 58px;
 }
 
@@ -486,7 +478,7 @@
 }
 .section-4back2 {
   background-color: black;
-  width: 80vw;
+  width: 60vw;
   height: 50vh;
   position: absolute;
   display: flex;
